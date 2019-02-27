@@ -1,0 +1,1053 @@
+﻿<Window x:Class="WpfApplication1.PlacementForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PlacementForm"   WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="None">
+    <Grid >
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF3151EA"/>
+                <GradientStop Color="#FF09185D" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>  
+        <ScrollViewer  HorizontalAlignment="Stretch" Background="#FFD8D8D8"  Margin="100,100,100,100" VerticalAlignment="Top" >
+            <Grid>
+              
+                <GroupBox x:Name="grpx1"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,10,0,0" VerticalAlignment="Top" Height="127" Width="627" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="1.	Arash ___ from Kerman." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16"  Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn11"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0"  Content="be"/>
+                        <RadioButton x:Name="rdn12"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="am"/>
+                        <RadioButton x:Name="rdn13"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top"  Content="are"/>
+                        <RadioButton x:Name="rdn14"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top"  Content="is"/>
+
+                    </Grid>
+                </GroupBox>
+
+                <GroupBox x:Name="grpx2"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,140,0,0" VerticalAlignment="Top" Height="127" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="2.	A:  What are ___?   B:  They're sunglasses." FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"   Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn21"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top"  Margin="27,40,0,0" Content="this"/>
+                        <RadioButton x:Name="rdn22"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0"  VerticalAlignment="Top" Content="these"/>
+                        <RadioButton x:Name="rdn23" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0"  VerticalAlignment="Top" Content="that"/>
+                        <RadioButton x:Name="rdn24"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0"  VerticalAlignment="Top" Content="it"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx3"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,270,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="3.	The teacher's desk is ___ the students."  FontFamily="Times New Roman" HorizontalAlignment="Left"   FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn31"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top"  Margin="27,40,0,0" Content="behind"/>
+                        <RadioButton x:Name="rdn32"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0"  VerticalAlignment="Top" Content="in front of"/>
+                        <RadioButton x:Name="rdn33" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0"  VerticalAlignment="Top" Content="on"/>
+                        <RadioButton x:Name="rdn34" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0"  VerticalAlignment="Top" Content="under"/>
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx4"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,400,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="4.	Where are you from?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn41"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="I am from a Shiraz."/>
+                        <RadioButton x:Name="rdn42"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="I from Shiraz."/>
+                        <RadioButton x:Name="rdn43" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="I'm from Shiraz."/>
+                        <RadioButton x:Name="rdn44" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="Am I from Shiraz."/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx5"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,530,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="5.	How are you?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn51"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="Fine, thank you."/>
+                        <RadioButton x:Name="rdn52"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="I'm Pouya."/>
+                        <RadioButton x:Name="rdn53" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="I fine.  Thank you"/>
+                        <RadioButton x:Name="rdn54" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="Yes, I am."/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx6"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,660,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="6.	Whose book is this?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn61"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="Its Nasser's book."/>
+                        <RadioButton x:Name="rdn62"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="It Nasser's book."/>
+                        <RadioButton x:Name="rdn63" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="It's Nasser book."/>
+                        <RadioButton x:Name="rdn64" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="It's Nasser's book."/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx7"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,790,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="7.	A:  ___________________? B:  He's wearing a black suit and a pair of black shoes. " HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn71"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="What he wearing"/>
+                        <RadioButton x:Name="rdn72"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="What is he wearing"/>
+                        <RadioButton x:Name="rdn73" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="What does he wear"/>
+                        <RadioButton x:Name="rdn74" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="What is he wear"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx8"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,920,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="8.	What time is it?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn81"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="It's time nine o'clock."/>
+                        <RadioButton x:Name="rdn82"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="Time is it nine o'clock."/>
+                        <RadioButton x:Name="rdn83" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="It's a quarter after nine."/>
+                        <RadioButton x:Name="rdn84" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="It's a fifteen past nine."/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx9"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,1050,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="9. A:  ____________________? B:  He lives on Imam Ali Street. " HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn91"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="Where does he live"/>
+                        <RadioButton x:Name="rdn92"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="Where do he live"/>
+                        <RadioButton x:Name="rdn93" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="Where do he lives"/>
+                        <RadioButton x:Name="rdn94" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="Where does he lives"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx10"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,1180,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="10. A:  How ____________________? B:  It has three. " HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn101"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="much bedrooms does your apartment have"/>
+                        <RadioButton x:Name="rdn102"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="many bedrooms do your apartment has"/>
+                        <RadioButton x:Name="rdn103" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="many bedrooms does your apartment have"/>
+                        <RadioButton x:Name="rdn104" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="often bedrooms does your apartment have "/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx11"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,1310,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="11.	There ________________ in the kitchen." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn111"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="aren't any plates"/>
+                        <RadioButton x:Name="rdn112"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="isn't many coffee"/>
+                        <RadioButton x:Name="rdn113" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="is no spoons"/>
+                        <RadioButton x:Name="rdn114" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="are some tea"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx12"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,1440,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="12.  What do you do?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn121"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="I do a teacher."/>
+                        <RadioButton x:Name="rdn122"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="I working in a bank."/>
+                        <RadioButton x:Name="rdn123" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="I’m taking a test."/>
+                        <RadioButton x:Name="rdn124" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="I’m a doctor."/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx13"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,1570,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="13. What do you do _______ Thursdays?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+                        <RadioButton x:Name="rdn131"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="in"/>
+                        <RadioButton x:Name="rdn132"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="at"/>
+                        <RadioButton x:Name="rdn133" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="on"/>
+                        <RadioButton x:Name="rdn134" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="of"/>
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx14"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,1700,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="14. We need _____ meat and bread for dinner." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn141"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="any"/>
+                        <RadioButton x:Name="rdn142"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="a few"/>
+                        <RadioButton x:Name="rdn143" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="some"/>
+                        <RadioButton x:Name="rdn144" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="many"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx15"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,1830,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="15. What do you do at the weekend?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn151"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="I usually go out with my friends."/>
+                        <RadioButton x:Name="rdn152"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="I go out always shopping."/>
+                        <RadioButton x:Name="rdn153" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="I go often out for a walk."/>
+                        <RadioButton x:Name="rdn154" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="Never I stay home."/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx16"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,1960,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="16. Right now Mohammad ___ his homework" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn161"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="is doing"/>
+                        <RadioButton x:Name="rdn162"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="is going to do"/>
+                        <RadioButton x:Name="rdn163" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="does"/>
+                        <RadioButton x:Name="rdn164" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="doing"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx17"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,2090,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="17. _______ do last night?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn171"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="What you did"/>
+                        <RadioButton x:Name="rdn172"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="Did you"/>
+                        <RadioButton x:Name="rdn173" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="What did you "/>
+                        <RadioButton x:Name="rdn174" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="What you"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx18"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,2220,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="18. A:  ____________ dinner at his house?  B:Yes, I did." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn181"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="What did you eat"/>
+                        <RadioButton x:Name="rdn182"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="What were you"/>
+                        <RadioButton x:Name="rdn183" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="Did you ate"/>
+                        <RadioButton x:Name="rdn184" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="Did you eat"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx19"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,2350,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="19.	Please telephone _____ tomorrow." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn191"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="us"/>
+                        <RadioButton x:Name="rdn192"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="we"/>
+                        <RadioButton x:Name="rdn193" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="our"/>
+                        <RadioButton x:Name="rdn194" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="you"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx20"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,2480,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="20.	___ Takhti Road when you reach the bank." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn201"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="Turn left on"/>
+                        <RadioButton x:Name="rdn202"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="You turn"/>
+                        <RadioButton x:Name="rdn203" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="Turn left between"/>
+                        <RadioButton x:Name="rdn204" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="Turn you on"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx21"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,2610,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="21.	When the cat and dog need food, I give ___ some." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn211"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="it"/>
+                        <RadioButton x:Name="rdn212"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="they"/>
+                        <RadioButton x:Name="rdn213" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="their"/>
+                        <RadioButton x:Name="rdn214" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="them"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx22"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,2740,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="22.	Please, _____ a little more juice." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn221"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="have"/>
+                        <RadioButton x:Name="rdn222"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="has"/>
+                        <RadioButton x:Name="rdn223" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="do"/>
+                        <RadioButton x:Name="rdn224" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="taking"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx23"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,2870,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="23.	A:  How much is a box of chocolate? B:  I’m not sure. A:  Please _______. " HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn231"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="ask me"/>
+                        <RadioButton x:Name="rdn232"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="ask someone"/>
+                        <RadioButton x:Name="rdn233" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="you ask"/>
+                        <RadioButton x:Name="rdn234" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="ask his"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx24"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,3000,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="24.	How well do you speak English?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn241"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="Not very well."/>
+                        <RadioButton x:Name="rdn242"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="Twice a day."/>
+                        <RadioButton x:Name="rdn243" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="Yes, I do."/>
+                        <RadioButton x:Name="rdn244" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="Very often."/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx25"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,3130,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="25.	A:  Did you do anything special last weekend? B:  Yes, I _________." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn251"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="driven my car"/>
+                        <RadioButton x:Name="rdn252"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="seen my friends"/>
+                        <RadioButton x:Name="rdn253" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="gone to the desert"/>
+                        <RadioButton x:Name="rdn254" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="drove to the beach"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx26"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,3260,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="26.	What a beautiful morning!  I feel great!  This ___ a terrific day." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn261"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="is going to be"/>
+                        <RadioButton x:Name="rdn262"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="is going be"/>
+                        <RadioButton x:Name="rdn263" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="is going"/>
+                        <RadioButton x:Name="rdn264" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="is he going"/>
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx27"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,3390,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="27.How _______ to get to Tehran next week?	" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn271"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="he go"/>
+                        <RadioButton x:Name="rdn272"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="does he go"/>
+                        <RadioButton x:Name="rdn273" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="will he"/>
+                        <RadioButton x:Name="rdn274" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="is he going"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx28"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,3520,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="28.	A healthy person ______ eat hamburgers every day." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn281"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="don't"/>
+                        <RadioButton x:Name="rdn282"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="doesn't"/>
+                        <RadioButton x:Name="rdn283" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="no"/>
+                        <RadioButton x:Name="rdn284" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="isn't"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx29"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,3650,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="29.	________ to Shiraz?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn291"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="have you ever been"/>
+                        <RadioButton x:Name="rdn292"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="have you been gone"/>
+                        <RadioButton x:Name="rdn293" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="did you stay"/>
+                        <RadioButton x:Name="rdn294" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="did you"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx30"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,3780,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="30.	I’ve lived in Rafsanjan ______ five years." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn301"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="when"/>
+                        <RadioButton x:Name="rdn302"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="already"/>
+                        <RadioButton x:Name="rdn303" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="for"/>
+                        <RadioButton x:Name="rdn304" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="since"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx31"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,3910,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="31.	I don’t like shopping,  and  Milad ________." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn311"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="doesn't neither"/>
+                        <RadioButton x:Name="rdn312"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="isn't either"/>
+                        <RadioButton x:Name="rdn313" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="doesn't too"/>
+                        <RadioButton x:Name="rdn314" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="doesn't either"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx32"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,4040,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="32.	If you feel chest pains, you _______ see a doctor at once." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn321"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="had better not"/>
+                        <RadioButton x:Name="rdn322"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="could"/>
+                        <RadioButton x:Name="rdn323" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="may"/>
+                        <RadioButton x:Name="rdn324" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="must"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx33"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,4170,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="33.	Ahmad has a new car, and ___." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn331"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="Ava so does"/>
+                        <RadioButton x:Name="rdn332"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="neither does Ava"/>
+                        <RadioButton x:Name="rdn333" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="so is Ava"/>
+                        <RadioButton x:Name="rdn334" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="so does Ava"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx34"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,4300,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="34.	Would you like a glass of orange juice?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn341"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="yes I like it"/>
+                        <RadioButton x:Name="rdn342"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="yes I'd like one"/>
+                        <RadioButton x:Name="rdn343" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="yes I will"/>
+                        <RadioButton x:Name="rdn344" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="yes I very much"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx35"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,4430,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="35.	I think Chinese food is ___ in the world." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn351"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="the best"/>
+                        <RadioButton x:Name="rdn352"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="better"/>
+                        <RadioButton x:Name="rdn353" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="the most good"/>
+                        <RadioButton x:Name="rdn354" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="the most"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx36"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,4560,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="36.	What did you _______ when you were a child?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn361"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="used to do"/>
+                        <RadioButton x:Name="rdn362"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="use to do"/>
+                        <RadioButton x:Name="rdn363" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="use doing"/>
+                        <RadioButton x:Name="rdn364" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="used doing"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx37"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,4690,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="37.	There are ________ car accidents in Tehran these days." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn371"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="much"/>
+                        <RadioButton x:Name="rdn372"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="less"/>
+                        <RadioButton x:Name="rdn373" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="too few"/>
+                        <RadioButton x:Name="rdn374" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="too many"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx38"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,4820,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="38.	Indian food is __________ Japanese food." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn381"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="hotter"/>
+                        <RadioButton x:Name="rdn382"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="as not hot as"/>
+                        <RadioButton x:Name="rdn383" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="hotter than"/>
+                        <RadioButton x:Name="rdn384" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="more hot"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx39"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,4950,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="39.	A:  Can I help you? B:  Yes, please.  _________________________________________" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn391"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="Can you tell me where the bank is?"/>
+                        <RadioButton x:Name="rdn392"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="Can you tell me where is the bank?"/>
+                        <RadioButton x:Name="rdn393" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="Can you tell me where the bank?"/>
+                        <RadioButton x:Name="rdn394" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="Where the bank is?"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx40"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,5080,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="40.	I don’t have a car.  I _________ one." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn401"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="wish I had"/>
+                        <RadioButton x:Name="rdn402"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="wish I have "/>
+                        <RadioButton x:Name="rdn403" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="am wishing I'm having"/>
+                        <RadioButton x:Name="rdn404" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="wish I did"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx41"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,5210,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="41.	Have you _____________________?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn411"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="ever eaten camel meat yesterday"/>
+                        <RadioButton x:Name="rdn412"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="ever eaten camel meat"/>
+                        <RadioButton x:Name="rdn413" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="ate camel meat ever"/>
+                        <RadioButton x:Name="rdn414" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="ever eating camel meat"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx42"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,5340,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="42.	What are you going to do tomorrow?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn421"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="I’m going to go for a walk.  I guess I will staying home."/>
+                        <RadioButton x:Name="rdn422"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="I guess I’m going to visit my parents."/>
+                        <RadioButton x:Name="rdn423" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="I don’t know.  Maybe I’m going to stay at home."/>
+                        <RadioButton x:Name="rdn424" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="I’m not sure.  I’ll probably go to the gym."/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx43"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,5470,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="43.	The music is too loud.  Please ________________." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn431"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="turn it down"/>
+                        <RadioButton x:Name="rdn432"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="turn down it"/>
+                        <RadioButton x:Name="rdn433" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="turn it on"/>
+                        <RadioButton x:Name="rdn434" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="turn it of"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx44"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,5600,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="44.	It’s too hot in this room.  ________________ the window, please?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn441"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="Would you mind not closing "/>
+                        <RadioButton x:Name="rdn442"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="Would you not mind closing"/>
+                        <RadioButton x:Name="rdn443" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="Would you mind not to close"/>
+                        <RadioButton x:Name="rdn444" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="Wouldn’t you mind closing"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx45"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,5730,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="45.	You must pay the electricity bill today, John.  Please ______________ it." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn451"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="don’t forget paying"/>
+                        <RadioButton x:Name="rdn452"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="forget not to pay"/>
+                        <RadioButton x:Name="rdn453" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="don’t forget to pay"/>
+                        <RadioButton x:Name="rdn454" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="remember not to pay"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx46"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,5860,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="46.	Mohammad smokes too much.  The problem is that if he ___." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn461"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="will quits, he gain weight"/>
+                        <RadioButton x:Name="rdn462"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="gains weight, he will quits"/>
+                        <RadioButton x:Name="rdn463" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="will quit, he gains weight"/>
+                        <RadioButton x:Name="rdn464" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="quits, he might gain weight"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx47"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,5990,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="47.	I hate _________ on Thursdays." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn471"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="I work"/>
+                        <RadioButton x:Name="rdn472"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="not work"/>
+                        <RadioButton x:Name="rdn473" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="to working"/>
+                        <RadioButton x:Name="rdn474" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="working"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx48"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,6120,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="48.	Farsi ___ in Iran." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn481"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="is speak"/>
+                        <RadioButton x:Name="rdn482"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="speaks"/>
+                        <RadioButton x:Name="rdn483" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="is spoken"/>
+                        <RadioButton x:Name="rdn484" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="is speaking"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx49"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,6250,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="49.	When I ___ to work this morning, I ___ a car accident." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn491"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="drove … was seeing"/>
+                        <RadioButton x:Name="rdn492"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="was driving … saw"/>
+                        <RadioButton x:Name="rdn493" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="was driven … was seeing"/>
+                        <RadioButton x:Name="rdn494" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="drive … was seen"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx50"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,6380,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="50.	John ___ in Iran since 1996." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn501"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="lived"/>
+                        <RadioButton x:Name="rdn502"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="is living"/>
+                        <RadioButton x:Name="rdn503" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="lives"/>
+                        <RadioButton x:Name="rdn504" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="has been living"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx51"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,6510,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="51.	The movie was about a man ________ robbed a bank." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn511"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="which"/>
+                        <RadioButton x:Name="rdn512"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="who"/>
+                        <RadioButton x:Name="rdn513" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="whose"/>
+                        <RadioButton x:Name="rdn514" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="whom"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx52"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,6640,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="52.	Now I don’t have a lot of money.  But if I ___, I ___ live a better life." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn521"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="did … would "/>
+                        <RadioButton x:Name="rdn522"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="were … will"/>
+                        <RadioButton x:Name="rdn523" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="am … was"/>
+                        <RadioButton x:Name="rdn524" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="be … would have"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx53"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,6770,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="53.	Last year I didn’t visit New York.  But if I ___ New York, I ___ a lot of gifts." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn531"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="visited … would buy"/>
+                        <RadioButton x:Name="rdn532"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="would visit … bought"/>
+                        <RadioButton x:Name="rdn533" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="had visited … would have bought"/>
+                        <RadioButton x:Name="rdn534" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="have visited … will buy"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx54"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,6900,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="54.	Parsa, please buy me a gift,” she said." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn541"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="She asked him buy me a gift."/>
+                        <RadioButton x:Name="rdn542"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="She asked him to buy her a gift."/>
+                        <RadioButton x:Name="rdn543" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="She asked him if she bought him a gift."/>
+                        <RadioButton x:Name="rdn544" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="She wanted to buy him a gift."/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx55"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,7030,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="55.	I’ve never met Bob, but I’d ___." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn551"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="like"/>
+                        <RadioButton x:Name="rdn552"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="like it to"/>
+                        <RadioButton x:Name="rdn553" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="like to do"/>
+                        <RadioButton x:Name="rdn554" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="like to"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx56"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,7160,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="56.	Hamed insisted __________." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn561"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="on coming"/>
+                        <RadioButton x:Name="rdn562"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="to come"/>
+                        <RadioButton x:Name="rdn563" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="for coming"/>
+                        <RadioButton x:Name="rdn564" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="he came"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx57"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,7290,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="57.	___ early in the morning is good for health." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn571"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="To getting up"/>
+                        <RadioButton x:Name="rdn572"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="Getting up"/>
+                        <RadioButton x:Name="rdn573" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="If you get up"/>
+                        <RadioButton x:Name="rdn574" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="Get up"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx58"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,7420,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="58.	Alex, is Ahmad coming to the party this weekend?  Can you ___?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn581"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="ask him come"/>
+                        <RadioButton x:Name="rdn582"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="call him to come"/>
+                        <RadioButton x:Name="rdn583" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="find out if he’s coming"/>
+                        <RadioButton x:Name="rdn584" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="ask him to be coming"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx59"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,7550,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="59.	We had a wonderful vacation last month.  While we ___________ from Rome to Vienna, we _________ for a couple of days in the mountains." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn591"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="were driving … stopped"/>
+                        <RadioButton x:Name="rdn592"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="were drive … were stopping"/>
+                        <RadioButton x:Name="rdn593" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="drove … were stopped"/>
+                        <RadioButton x:Name="rdn594" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="were driven … would have stopped"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx60"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,7680,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="60.	There’s a problem with my car.  ________________." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn601"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="It needs fixing."/>
+                        <RadioButton x:Name="rdn602"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="It needs to fixed."/>
+                        <RadioButton x:Name="rdn603" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="It needs to fix"/>
+                        <RadioButton x:Name="rdn604" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="I need fixing"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx61"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,7810,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="61.	What can we do to stop pollution?  One way __________________ less." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn611"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="for stopping it is by driving"/>
+                        <RadioButton x:Name="rdn612"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="to stop it"/>
+                        <RadioButton x:Name="rdn613" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="to stop it is to drive"/>
+                        <RadioButton x:Name="rdn614" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="to do about it is to drive"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx62"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,7940,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="62.	A:  We have tea and we have coffee.  What do you want? B:  I ___ take coffee." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn621"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="will prefer to"/>
+                        <RadioButton x:Name="rdn622"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="would prefer to"/>
+                        <RadioButton x:Name="rdn623" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="prefer"/>
+                        <RadioButton x:Name="rdn624" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="must prefer to"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx63"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,8070,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="63.	A:  Where can I have someone fix my car? B:  You can ___ at any gas station in town." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn631"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="fixed it have"/>
+                        <RadioButton x:Name="rdn632"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="have him fixed "/>
+                        <RadioButton x:Name="rdn633" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="fix and have it"/>
+                        <RadioButton x:Name="rdn634" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="have it fixed"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx64"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,8200,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="64.	In fifty years, people ___ on the moon." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn641"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="are living"/>
+                        <RadioButton x:Name="rdn642"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="have lived"/>
+                        <RadioButton x:Name="rdn643" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="lived"/>
+                        <RadioButton x:Name="rdn644" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="will be living"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx65"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,8330,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="65.	If you had listened to me, nothing bad ___." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn651"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="happened"/>
+                        <RadioButton x:Name="rdn652"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="would have happened"/>
+                        <RadioButton x:Name="rdn653" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="has happened"/>
+                        <RadioButton x:Name="rdn654" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="would happen"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx66"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,8460,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="66.	It’s already 10 P.M. and Amir hasn’t arrived yet.  He ___ the party." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn661"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="must have forgotten"/>
+                        <RadioButton x:Name="rdn662"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="must forget"/>
+                        <RadioButton x:Name="rdn663" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="could forget"/>
+                        <RadioButton x:Name="rdn664" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="must perhaps forget"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx67"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,8590,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="67.	Many people drive without a driver’s license in Iran.  They ___ to do that." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn671"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="shouldn’t allow"/>
+                        <RadioButton x:Name="rdn672"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="shouldn’t be allowed"/>
+                        <RadioButton x:Name="rdn673" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="shouldn’t be required"/>
+                        <RadioButton x:Name="rdn674" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="don’t should be allowed"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx68"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,8720,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="68.	Ali likes to drive, _________?" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn681"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="isn’t he"/>
+                        <RadioButton x:Name="rdn682"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="can’t he"/>
+                        <RadioButton x:Name="rdn683" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="doesn’t it"/>
+                        <RadioButton x:Name="rdn684" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="doesn’t he"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx69"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,8850,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="69.	Max said, “I’m not feeling well.”" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn691"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="He said he wasn’t feeling well."/>
+                        <RadioButton x:Name="rdn692"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="He said he doesn’t feel well."/>
+                        <RadioButton x:Name="rdn693" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="He asked him not to feel well."/>
+                        <RadioButton x:Name="rdn694" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="He asked me to feel not well."/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx70"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,8980,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="70.	___________ I could borrow 500 dollars." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn701"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="Would you mind"/>
+                        <RadioButton x:Name="rdn702"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="Is it OK"/>
+                        <RadioButton x:Name="rdn703" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="I wonder"/>
+                        <RadioButton x:Name="rdn704" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="I wonder if"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx71"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,9130,0,0" VerticalAlignment="Top"  Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <FlowDocumentScrollViewer BorderThickness="2" BorderBrush="Black">
+                            <FlowDocument>
+                                <Section>
+                                    <Paragraph FontWeight="Black" FontSize="17">
+                                        READING TEXT 1                   Mansour
+                                    </Paragraph>
+                                </Section>
+                                <Section>
+                                    <Paragraph TextIndent="30">
+                                        Mansour is a bank secretary. He works in a big office in downtown Tehran.
+        He has a sports car and lives in a nice apartment. He likes to stay healthy. He likes
+        exercise, but he doesn't like jogging. He enjoys playing tennis with his friends on the
+        weekend. He likes to do active things. He doesn't like staying at home and watching
+        television. He is a vegetarian. He thinks eating meat isn't healthy. He also doesn't
+        smoke and hates its smell.
+                                    </Paragraph>
+                                </Section>
+                                <Section>
+                                    <Paragraph TextIndent="30" >
+                                        Mansour loves to travel, too. Last month he went to Paris with one of his friends. They
+        enjoyed their visit very much. They stayed there for a week and ate a lot of French bread
+        and cheese. They visited many interesting places there. They also bought many gifts for
+        their families and friends. Now they are back in Tehran and are already planning their next
+        trip to Miami, Florida.
+                                    </Paragraph>
+                               
+                                </Section>
+                            </FlowDocument>
+                        </FlowDocumentScrollViewer>
+               
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx72"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,9435,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+
+                        <Label FontWeight="Bold" Content="1.	Mansour doesn’t like to watch television because he thinks  _______________." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn721"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="it isn’t healthy"/>
+                        <RadioButton x:Name="rdn722"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="it is good for his health"/>
+                        <RadioButton x:Name="rdn723" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="he’s always busy "/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx73"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,9535,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="2.	Mansour takes good care of himself.  He _________________." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn731"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="sleeps a lot, eats meat, and loves ice cream"/>
+                        <RadioButton x:Name="rdn732"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="doesn’t eat meat, doesn’t smoke, and exercises"/>
+                        <RadioButton x:Name="rdn733" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="ate French bread"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx74"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,9635,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="3.	Travel for Mansour  _________." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn741"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="is important"/>
+                        <RadioButton x:Name="rdn742"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="isn’t important"/>
+                        <RadioButton x:Name="rdn743" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="is expensive"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx75"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,9735,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="4.	I think Mansour __________." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn751"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="isn’t interested in travel"/>
+                        <RadioButton x:Name="rdn752"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="doesn’t travel"/>
+                        <RadioButton x:Name="rdn753" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="often travels"/>
+
+                    </Grid>
+                </GroupBox>
+
+                <GroupBox x:Name="grpx76"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,9885,0,0" VerticalAlignment="Top"  Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <FlowDocumentScrollViewer BorderThickness="2" BorderBrush="Black">
+                            <FlowDocument>
+                                <Section>
+                                    <Paragraph FontWeight="Black" FontSize="17">
+                                        READING TEXT 2                         A Miracle</Paragraph>
+                                </Section>
+                                <Section>
+                                    <Paragraph TextIndent="30">
+                                        According to advertisements, certain products can produce miracles.  Consider what happened to Ramin, for example.  For years, Bobby, as his mother calls him, was the most unpopular man in his company.  Nobody ever invited him home for dinner.  Nobody even sent him a Christmas card except his aunt Agatha.  In the company cafeteria, he was never asked to join the other salesmen who laughed loudly and told jokes.  Even his secretary seemed to avoid him.  She spoke to him as little as possible:  “Yes, Sir,” “No, Sir,” and “A call for you on line 3” was the extent of their communication.
+                                    </Paragraph>
+                                </Section>
+                                <Section>
+                                    <Paragraph TextIndent="30" >
+                                        Last month, however, everything changed.  About the time that aunt Mahsa died, Ramin bought a bottle of aftershave lotion.  It was rather expensive, but with the half a million dollars his aunt left him in  
+her will, he could afford it.  After that, his life changed.  Today he is like a new man.  The secretaries in the main office smile and wave at him.  He never sits alone in the cafeteria; in fact, he is usually surrounded by people.
+
+                                    </Paragraph>
+
+                                </Section>
+                           
+                                <Section>
+                                    <Paragraph TextIndent="30" >
+                                        The advertisement for Ramin’s aftershave lotion says:
+                                    </Paragraph>
+                                </Section>
+                               
+                                    
+                             
+                                    <Section>
+                                    <Paragraph TextIndent="30" TextAlignment="Center" FontWeight="ExtraBold" >
+                                        Try Miracle
+                                    </Paragraph>
+                                </Section>
+                                <Section>
+                                    <Paragraph TextIndent="30" TextAlignment="Center" FontWeight="ExtraBold" >
+It’s guaranteed to change your life.
+                                    </Paragraph>
+                                    </Section>
+                             
+                                <Section>
+                                <Paragraph TextIndent="30" >
+                                        It certainly changed Ramin’s life.  Maybe you should try it.  It might change yours.
+                                </Paragraph>
+                                </Section>
+                            </FlowDocument>
+                        </FlowDocumentScrollViewer>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx77"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,10400,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+
+                        <Label FontWeight="Bold" Content="5.	Ramin didn’t use Miracle aftershave before last month." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn771"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="This is true."/>
+                        <RadioButton x:Name="rdn772"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="This is false."/>
+                        <RadioButton x:Name="rdn773" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="The story doesn’t give enough information for me to decide."/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx78"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,10500,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="6.	Ramin got the money from ___." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn781"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="a bank"/>
+                        <RadioButton x:Name="rdn782"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="his aunt who died"/>
+                        <RadioButton x:Name="rdn783" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="his company"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx79"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,10600,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="7.	Ramin’s secretary talked very little to him because ___." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn791"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="he was a difficult boss"/>
+                        <RadioButton x:Name="rdn792"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="of his aftershave"/>
+                        <RadioButton x:Name="rdn793" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="he didn’t have a lot of money"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx80"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,10700,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="8.	According to this story, ________ is important." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn801"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="friendship "/>
+                        <RadioButton x:Name="rdn802"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="money "/>
+                        <RadioButton x:Name="rdn803" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="aftershave"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx81"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,10850,0,0" VerticalAlignment="Top"  Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <FlowDocumentScrollViewer BorderThickness="2" BorderBrush="Black">
+                            <FlowDocument>
+                                <Section>
+                                    <Paragraph FontWeight="Black" FontSize="17">
+                                        READING TEXT 3                      Culture Shock</Paragraph>
+                                </Section>
+                                <Section>
+                                    <Paragraph TextIndent="30">
+                                        Sandy and Victor, both English teachers, lived abroad for many years, first in Saudi Arabia, and then in the Far East, where, like many experienced travellers, they suffered from culture shock.</Paragraph>
+                                </Section>
+                                <Section>
+                                    <Paragraph TextIndent="30" >
+                                        Recently they returned to the United States and experienced something called reverse culture shock.  They had lived abroad for a very long time, and everything back home was new for them.    </Paragraph>
+
+                                </Section>
+
+                                <Section>
+                                    <Paragraph TextIndent="30" >
+                                        The cars seemed so big, and the people did too.  Sandy and Victor had forgotten how many overweight Americans there were.  But everyone was obsessed with dieting; people thought about it all the time.  Every magazine seemed to have an article about dieting, but not many people seemed disciplined enough to follow a diet.  Most were disappointed dieters.
+                                    </Paragraph>
+                                </Section>
+
+
+
+                                <Section>
+                                    <Paragraph TextIndent="30" >
+                                        When Sandy and Victor had first arrived in Saudi Arabia, it was surprising to see the Arab women covered from head to toe.  Sandy was equally shocked when she returned to the USA and saw women wearing hair rollers in public.</Paragraph>
+                                </Section>
+                                <Section>
+                                    <Paragraph TextIndent="30">
+                                        Both Sandy and Victor were frustrated because they didn’t have a car.  When they lived abroad, transportation had never been a problem, but the North American city that they lived in had very poor public transportation.  Sometimes the couple had to wait an hour for the bus.  It was very annoying.  And the bus stop was almost a mile from the apartment, so they had to walk a lot, too.  At the end of the day, they were exhausted.</Paragraph>
+                                </Section>
+
+                                <Section>
+                                    <Paragraph TextIndent="30" >
+                                        It’s difficult to return home after being in another country for a while.  At first, Sandy and Victor were worried that they had a negative attitude about everything, but they felt relieved to hear about reverse culture shock.  It will take time for them to feel comfortable living here again.
+
+                                    </Paragraph>
+                                </Section>
+                            </FlowDocument>
+                        </FlowDocumentScrollViewer>
+
+                    </Grid>
+                </GroupBox>
+               
+                <GroupBox x:Name="grpx83"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,11500,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="9.	In all the countries where they lived, Sandy and Victor _____________________________." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn831"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="never suffered from culture shock"/>
+                        <RadioButton x:Name="rdn832"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="suffered from culture shock once"/>
+                        <RadioButton x:Name="rdn833" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="suffered from culture shock twice     "/>
+                        <RadioButton x:Name="rdn834" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="suffered from culture shock three times"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx84"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,11630,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="10.	Sandy and Victor experienced reverse culture shock in _________________." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn841"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="both Saudi Arabia and the Far East"/>
+                        <RadioButton x:Name="rdn842"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="Saudi Arabia"/>
+                        <RadioButton x:Name="rdn843" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="the Far East"/>
+                        <RadioButton x:Name="rdn844" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="the USA    "/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx85"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,11760,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+                        <Label FontWeight="Bold" Content="11.	When Sandy and Victor returned home, they ___." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn851"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="were afraid they would not be able to live there again"/>
+                        <RadioButton x:Name="rdn852"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="were afraid they would not be able to drive there"/>
+                        <RadioButton x:Name="rdn853" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="immediately felt comfortable at home"/>
+                        <RadioButton x:Name="rdn854" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="developed a negative attitude about American culture"/>
+
+                    </Grid>
+                </GroupBox>
+				 <GroupBox x:Name="grpx822"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,11890,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+
+                        <Label FontWeight="Bold" Content="12. The story is about __________________________." HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+                        <RadioButton x:Name="rdn821"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" VerticalAlignment="Top" Margin="27,40,0,0" Content="negative attitude as a result of living abroad"/>
+                        <RadioButton x:Name="rdn822"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,60,0,0" VerticalAlignment="Top" Content="cultural adjustment as a result of living in different countries"/>
+                        <RadioButton x:Name="rdn823" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,80,0,0" VerticalAlignment="Top" Content="two unusual and unhappy people"/>
+                        <RadioButton x:Name="rdn824" HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="27,100,0,0" VerticalAlignment="Top" Content="transportation and driving problems in the USA"/>
+                      
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="grpx90"  HorizontalAlignment="Left"  FontFamily="Times New Roman" FontSize="16" Margin="3,12020,0,0" VerticalAlignment="Top" Height="184" Width="627" Grid.ColumnSpan="2" BorderThickness="0">
+                    <Grid Margin="3,0">
+
+
+                        <Button x:Name="btnFinish" Content="Finish   اتمام" Width="120" Height="47" FontSize="18" FontFamily="B Titr" HorizontalAlignment="Left"  Margin="27,10,0,0" VerticalAlignment="Top" Click="btnFinish_Click"/>
+
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Window>
